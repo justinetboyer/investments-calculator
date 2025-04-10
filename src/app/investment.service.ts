@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core';
-import { InvestmentInput } from './investment-input';
-import { Investment } from './investment-results/investment';
+import { InvestmentInput } from './user-input/investment-input';
+import { InvestmentResult } from './investment-results/investment';
 
 @Injectable({
   providedIn: 'root',
 })
 export class InvestmentService {
-  investmentData? : Investment[];
+  investmentData? : InvestmentResult[];
 
   constructor() {}
 

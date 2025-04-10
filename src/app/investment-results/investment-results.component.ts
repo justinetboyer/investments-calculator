@@ -1,6 +1,5 @@
-import { Component, input, Input, signal } from '@angular/core';
+import { Component } from '@angular/core';
 import { CurrencyPipe } from '@angular/common';
-import { Investment } from './investment';
 import { InvestmentService } from '../investment.service';
 
 @Component({
